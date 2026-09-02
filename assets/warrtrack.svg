@@ -1,36 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250">
-  <rect x="30" y="14" width="940" height="222" rx="16" fill="#161B22" stroke="#30363D"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <radialGradient id="ambient" cx="50%" cy="44%" r="62%">
+      <stop offset="0%" stop-color="#2F6BFF" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#2F6BFF" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#2F6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0B0D12" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#06080C" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#F0F6FC"/>
+      <stop offset="100%" stop-color="#B9C4D4"/>
+    </linearGradient>
+  </defs>
 
-  <!-- logo tile + name -->
-  <rect x="60" y="48" width="52" height="52" rx="14" fill="#1F6FEB"/>
-  <text x="86" y="82" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">W</text>
-  <text x="130" y="71" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#F0F6FC">WarrTrack</text>
-  <text x="130" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#8B949E">offline-first warranty &amp; receipt tracking</text>
+  <rect width="1200" height="340" fill="#0B0D12"/>
+  <rect width="1200" height="340" fill="url(#ambient)"/>
+  <rect width="1200" height="340" fill="url(#vignette)"/>
 
-  <!-- status chip -->
-  <circle cx="826" cy="74" r="4" fill="#D29922"/>
-  <text x="840" y="79" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" letter-spacing="2" fill="#D29922">PRIVATE BETA</text>
+  <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="#1A2130"/>
+  <line x1="0" y1="339.5" x2="1200" y2="339.5" stroke="#1A2130"/>
 
-  <!-- divider -->
-  <line x1="60" y1="118" x2="940" y2="118" stroke="#21262D"/>
+  <text x="600" y="178" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="94" font-weight="700" fill="url(#title)">WarrTrack</text>
 
-  <!-- feature row 1 -->
-  <rect x="60" y="136" width="26" height="26" rx="7" fill="#1C2128" stroke="#30363D"/>
-  <rect x="65.5" y="141.5" width="15" height="15" rx="2.5" fill="none" stroke="#58A6FF" stroke-width="1.6"/>
-  <line x1="69" y1="146.5" x2="77" y2="146.5" stroke="#58A6FF" stroke-width="1.3"/>
-  <line x1="69" y1="152" x2="77" y2="152" stroke="#58A6FF" stroke-width="1.3"/>
-  <text x="98" y="153" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#C9D2DE">reads receipts on-device — OCR, barcode, email-forwarding</text>
+  <rect x="576" y="206" width="48" height="3" rx="1.5" fill="#4C7DFF"/>
 
-  <!-- feature row 2 -->
-  <rect x="60" y="172" width="26" height="26" rx="7" fill="#1C2128" stroke="#30363D"/>
-  <circle cx="73" cy="185" r="7.5" fill="none" stroke="#58A6FF" stroke-width="1.6"/>
-  <line x1="73" y1="185" x2="73" y2="180.5" stroke="#58A6FF" stroke-width="1.3"/>
-  <line x1="73" y1="185" x2="76.5" y2="186.5" stroke="#58A6FF" stroke-width="1.3"/>
-  <text x="98" y="189" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#C9D2DE">90 / 30 / 7 / 0-day expiry reminders — reboot-safe</text>
+  <text x="600" y="248" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" letter-spacing="6" fill="#7B8798">OFFLINE-FIRST WARRANTY &amp; RECEIPT TRACKING</text>
 
-  <!-- feature row 3 -->
-  <rect x="60" y="208" width="26" height="26" rx="7" fill="#1C2128" stroke="#30363D"/>
-  <path d="M73 213 l5 3 -1.5 6 h-7 l-1.5 -6 z" fill="none" stroke="#58A6FF" stroke-width="1.5"/>
-  <polyline points="70,219 72,221 76,216" fill="none" stroke="#58A6FF" stroke-width="1.2"/>
-  <text x="98" y="225" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#C9D2DE">local-first — SQLite is the source of truth, sync opt-in</text>
+  <text x="600" y="286" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="11.5" letter-spacing="3" fill="#4A5565">PRIVATE BETA</text>
 </svg>
