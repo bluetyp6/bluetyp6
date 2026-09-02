@@ -1,18 +1,29 @@
-## hi — i'm bluetyp6
+# bluetyp6
 
-i make apps that work when the internet doesn't.
+**Software engineer — Flutter & Dart.**
+I build local-first software: apps that treat the network as an enhancement, not a requirement.
 
-**currently building WarrTrack** — a warranty tracker. it reads your receipts
-(on-device OCR, barcode lookup), keeps track of the coverage window, and pings
-you at 90/30/7/0 days before the warranty runs out. not after.
+---
 
-local-first: sqlite is the source of truth, there's no account, and cloud sync
-is something you have to opt into.
+### now — WarrTrack
 
-it's in private development until it's good enough to show you.
+Warranty & receipt tracking that works the way people actually live.
+Photograph or forward a receipt once; the app pulls the merchant, dates and
+totals out of it on-device, then reminds you at **90 / 30 / 7 / 0 days**
+before coverage ends — not after you're already standing at the returns desk.
 
-```
-stack       flutter · dart · drift (sqlite) · riverpod
-targets     windows desktop + android
-habits      tests before refactors · CI on every push · dark mode first
-```
+- local-first — SQLite is the source of truth, sync is opt-in
+- no account, no telemetry, dark mode first
+- Windows & Android from one Flutter codebase, 68 tests, CI on every push
+
+*Private beta — public release soon.*
+
+### previously
+
+A few years of Flutter freelance and client work. The patterns that kept
+coming back — reminder scheduling, receipt parsing, duplicate detection —
+are what WarrTrack is built out of.
+
+### toolbox
+
+`Dart` · `Flutter` · `Drift / SQLite` · `Riverpod` · `Supabase` · `GitHub Actions`
