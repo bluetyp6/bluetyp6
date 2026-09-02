@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170">
+  <rect x="0.5" y="0.5" width="799" height="169" rx="18" fill="#0D1117" stroke="#21262D"/>
+  <text x="400" y="82" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="1" fill="#F0F6FC">blu<tspan fill="#2F81F7">.</tspan></text>
+  <text x="400" y="120" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#8B949E">c++ · python · dart · flutter</text>
+  <rect x="370" y="142" width="60" height="3" rx="1.5" fill="#2F81F7"/>
+</svg>

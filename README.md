@@ -1,14 +1,11 @@
-<div align="center">
+<p align="center">
+  <img src="assets/wordmark.svg" width="420" alt="blu — c++ · python · dart · flutter" />
+</p>
 
-### blu
-
-`c++` · `python` · `dart` · `flutter`
-
-building **WarrTrack** — offline-first warranty tracking · 🔒 private beta
-
-ex game-cheat dev — fortnite · valorant · cod → white hat
-
-</div>
+<p align="center">
+  building <strong>WarrTrack</strong> — offline-first warranty tracking&nbsp;·&nbsp;🔒 private beta<br>
+  ex game-cheat dev — fortnite · valorant · cod → white hat
+</p>
 
 ---
 
