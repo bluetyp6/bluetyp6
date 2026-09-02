@@ -10,13 +10,13 @@
 ---
 
 <div align="center">
-  <img src="profile-summary/stats.svg" alt="stats" />
-  <img src="profile-summary/productive-time.svg" alt="productive time" />
+  <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="profile" />
+  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="stats" />
 </div>
 
 <div align="center">
-  <img src="profile-summary/repos-per-language.svg" alt="repos per language" />
-  <img src="profile-summary/most-commit-language.svg" alt="commits per language" />
+  <img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="repos per language" />
+  <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="commits per language" />
 </div>
 
 <div align="center">
