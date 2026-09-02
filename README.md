@@ -1,42 +1,57 @@
-<!-- Vinauxity — GitHub profile -->
+<div align="center">
+  <img src="assets/banner.svg" alt="bluetyp6" width="100%" />
+</div>
 
-<h1 align="center">Vinauxity</h1>
+<div align="center">
+  <a href="https://github.com/bluetyp6">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&width=560&lines=flutter+developer+%2F%2F+clean+architecture+enjoyer;offline-first+%3E+cloud-first;currently+building+WarrTrack+%F0%9F%94%A8;ship+small+%2C+measure+everything" alt="typing" />
+  </a>
+</div>
 
-<h3 align="center">Building software that quietly solves real-life problems.</h3>
+<br />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/focus-Flutter%20%26%20Dart-02569B?logo=flutter&logoColor=white" alt="focus" />
-  <img src="https://img.shields.io/badge/architecture-clean%20%2F%20layered-2EA44F" alt="architecture" />
-  <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="ci" />
-  <img src="https://img.shields.io/badge/testing-first%20mindset-brightgreen" alt="testing" />
-</p>
+<div align="center">
+  <a href="https://github.com/bluetyp6?tab=followers"><img src="https://img.shields.io/github/followers/bluetyp6?style=for-the-badge&color=2C6BED&labelColor=0D1117" alt="followers" /></a>
+  <img src="https://img.shields.io/badge/focus-Flutter%20%26%20Dart-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0D1117" alt="focus" />
+  <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0D1117" alt="ci" />
+</div>
 
----
+<br />
 
-### 🔨 Currently building — **WarrTrack** 👀
+## 🔨 currently building
 
-> [!NOTE]
+<div align="center">
+  <img src="assets/warrtrack-card.svg" alt="WarrTrack — offline-first warranty &amp; receipt tracking" width="100%" />
+</div>
+
 > Offline-first **warranty & receipt tracking** — scan or forward a receipt once,
 > and never dig through drawers for it when something breaks.
->
-> 📸 On-device **OCR receipt capture** &nbsp;·&nbsp; 📷 **barcode lookup** with a curated warranty-terms database &nbsp;·&nbsp; 📧 email-forwarding import
-> ⏰ **90/30/7/0-day expiry alerts** that survive reboots &nbsp;·&nbsp; 🌗 adaptive **Material 3** light/dark design system
-> 🏗️ clean architecture — pure domain layer, `Result<T>` error handling, repository pattern
-> ✅ 68 unit tests, CI-gated `format → analyze → test`
->
-> 🔒 **Private during development — public release soon.**
+> 🔒 in private development — **public release soon**.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.24%2B-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Riverpod-state%20management-159957" alt="Riverpod" />
-  <img src="https://img.shields.io/badge/Drift-SQLite-003B57" alt="Drift" />
-  <img src="https://img.shields.io/badge/ML%20Kit-OCR-F9AB00?logo=google&logoColor=white" alt="ML Kit" />
-  <img src="https://img.shields.io/badge/Supabase-optional%20sync-3FCF8E?logo=supabase&logoColor=white" alt="Supabase" />
-</p>
+<br />
 
----
+## ⚙️ stack
 
-<h6 align="center">
-  <img src="https://img.shields.io/badge/philosophy-ship%20small%2C%20measure%20everything-8A2BE2" alt="philosophy" />
-  <img src="https://img.shields.io/badge/status-%F0%9F%9A%A7%20WarrTrack%20in%20active%20development-orange" alt="status" />
-</h6>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,supabase,ts,postgres,git,githubactions,vscode&theme=dark" alt="stack" />
+</div>
+
+<br />
+
+## 📊 github
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bluetyp6&show_icons=true&hide_border=true&bg_color=0D1117&title_color=5EEAD4&icon_color=2C6BED&text_color=C9D2DE" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluetyp6&layout=compact&hide_border=true&bg_color=0D1117&title_color=5EEAD4&text_color=C9D2DE&langs_count=8" alt="top langs" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=bluetyp6&hide_border=true&background=0D1117&ring=5EEAD4&fire=2C6BED&currStreakLabel=5EEAD4&sideLabels=9AA4B2&dates=C9D2DE" alt="streak" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=bluetyp6&style=flat-square&color=2C6BED&label=profile+views" alt="views" />
+  <img src="https://img.shields.io/badge/status-building%20in%20private-orange?style=flat-square&labelColor=0D1117" alt="status" />
+</div>
