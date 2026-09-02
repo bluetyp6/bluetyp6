@@ -10,8 +10,8 @@
 ---
 
 <div align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=bluetyp6&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D2DE" alt="stats" />
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluetyp6&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D2DE&langs_count=6" alt="langs" />
+  <img height="158" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=bluetyp6&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D2DE" alt="stats" />
+  <img height="158" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=bluetyp6&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D2DE&langs_count=6" alt="langs" />
 </div>
 
 <div align="center">
