@@ -24,6 +24,6 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bluetyp6/bluetyp6/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/bluetyp6/bluetyp6/output/github-contribution-grid-snake.svg" alt="snake" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3d contributions" width="100%" />
 </picture>
