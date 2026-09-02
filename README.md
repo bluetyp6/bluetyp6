@@ -1,38 +1,20 @@
-# bluetyp6
+<div align="center">
 
-**Software engineer — Flutter · Dart · C++ · Python**
-local-first software. apps that work offline.
+### blu
 
----
+`c++` · `python` · `dart` · `flutter`
 
-### the plot twist
+building **WarrTrack** — offline-first warranty tracking · 🔒 private beta
 
-- used to build cheats for **Fortnite**, **Valorant**, **COD**
-- learned anti-cheat, memory, injection, evasion — from the inside
-- now on the other side. same skills, white hat
+ex game-cheat dev — fortnite · valorant · cod → white hat
 
-### now — WarrTrack
-
-warranty & receipt tracking. private beta → public soon.
-
-- on-device OCR + barcode lookup
-- reminders at 90 / 30 / 7 / 0 days before expiry
-- local-first — SQLite is the source of truth
-- no account, no telemetry, sync opt-in
-- Windows + Android from one codebase
-- 68 tests, CI on every push
-
----
-
-<img src="https://skillicons.dev/icons?i=flutter,dart,cpp,python,supabase,git,githubactions&theme=dark" alt="stack" />
-
-`C++` · `Python` · `Dart` · `Flutter` · `Drift / SQLite` · `Riverpod` · `Supabase` · `GitHub Actions`
+</div>
 
 ---
 
 <div align="center">
   <img height="158" src="https://github-readme-stats.vercel.app/api?username=bluetyp6&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D2DE" alt="stats" />
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluetyp6&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D2DE&langs_count=6" alt="top langs" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluetyp6&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D2DE&langs_count=6" alt="langs" />
 </div>
 
 <div align="center">
