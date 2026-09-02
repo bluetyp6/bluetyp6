@@ -1,33 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="ambient" cx="50%" cy="44%" r="62%">
-      <stop offset="0%" stop-color="#2F6BFF" stop-opacity="0.22"/>
-      <stop offset="45%" stop-color="#2F6BFF" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#2F6BFF" stop-opacity="0"/>
+    <radialGradient id="gBlue" cx="0.32" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
-      <stop offset="0%" stop-color="#0B0D12" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#06080C" stop-opacity="0.6"/>
+    <radialGradient id="gViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.36"/>
+      <stop offset="0.6" stop-color="#7C3AED" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="65%" stop-color="#F0F6FC"/>
-      <stop offset="100%" stop-color="#B9C4D4"/>
+    <radialGradient id="gTeal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.32"/>
+      <stop offset="0.65" stop-color="#0891B2" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D7DCE3" opacity="0.07"/>
+    </pattern>
+    <radialGradient id="dotMask" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="820" y2="0">
+      <stop offset="0" stop-color="#F6F8FA"/>
+      <stop offset="0.72" stop-color="#F6F8FA"/>
+      <stop offset="1" stop-color="#B9C6D6"/>
     </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="400" rx="14"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="340" fill="#0B0D12"/>
-  <rect width="1200" height="340" fill="url(#ambient)"/>
-  <rect width="1200" height="340" fill="url(#vignette)"/>
+  <rect width="1200" height="400" rx="14" fill="#0B0D12"/>
+  <g clip-path="url(#frame)">
+    <g filter="url(#soft)">
+      <ellipse cx="330" cy="480" rx="540" ry="320" fill="url(#gBlue)"/>
+      <ellipse cx="1020" cy="110" rx="460" ry="290" fill="url(#gViolet)"/>
+      <ellipse cx="880" cy="540" rx="420" ry="250" fill="url(#gTeal)"/>
+    </g>
+    <rect width="1200" height="400" fill="url(#dots)" mask="url(#dotMask)"/>
+  </g>
 
-  <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="#1A2130"/>
-  <line x1="0" y1="339.5" x2="1200" y2="339.5" stroke="#1A2130"/>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="13.5" stroke="#242933"/>
+  <rect x="0.5" y="0.5" width="1199" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.08"/>
 
-  <text x="600" y="178" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="94" font-weight="700" fill="url(#title)">WarrTrack</text>
+  <text x="64" y="174" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-1.8" fill="url(#title)">WarrTrack</text>
+  <rect x="67" y="198" width="42" height="3" rx="1.5" fill="#3B82F6"/>
+  <text x="66" y="242" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="5" fill="#8B949E">OFFLINE-FIRST WARRANTY &amp; RECEIPT TRACKING</text>
 
-  <rect x="576" y="206" width="48" height="3" rx="1.5" fill="#4C7DFF"/>
-
-  <text x="600" y="248" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" letter-spacing="6" fill="#7B8798">OFFLINE-FIRST WARRANTY &amp; RECEIPT TRACKING</text>
-
-  <text x="600" y="286" text-anchor="middle" font-family="'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="11.5" letter-spacing="3" fill="#4A5565">PRIVATE BETA</text>
+  <g>
+    <rect x="64" y="266" width="132" height="28" rx="14" fill="#161B22" stroke="#30363D"/>
+    <circle cx="86" cy="280" r="3.5" fill="#3B82F6"/>
+    <text x="99" y="285" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#A8B3C0">PRIVATE BETA</text>
+  </g>
 </svg>
