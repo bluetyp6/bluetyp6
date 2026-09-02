@@ -1,39 +1,32 @@
 # bluetyp6
 
-**Software engineer — Flutter & Dart.**
-I build local-first software: apps that treat the network as an enhancement, not a requirement.
+**Software engineer — Flutter · Dart · C++ · Python**
+local-first software. apps that work offline.
 
 ---
 
 ### the plot twist
 
-I used to make cheats for **Fortnite**, **Valorant** and **Call of Duty**.
-Turns out nothing teaches you anti-cheat systems, memory, injection and
-detection evasion like being the one evading them. Now I'm on the other
-side of that fence — same skills, defensive this time.
+- used to build cheats for **Fortnite**, **Valorant**, **COD**
+- learned anti-cheat, memory, injection, evasion — from the inside
+- now on the other side. same skills, white hat
 
 ### now — WarrTrack
 
-Warranty & receipt tracking that works the way people actually live.
-Photograph or forward a receipt once; the app pulls the merchant, dates and
-totals out of it on-device, then reminds you at **90 / 30 / 7 / 0 days**
-before coverage ends — not after you're already standing at the returns desk.
+warranty & receipt tracking. private beta → public soon.
 
-- local-first — SQLite is the source of truth, sync is opt-in
-- no account, no telemetry, dark mode first
-- Windows & Android from one Flutter codebase, 68 tests, CI on every push
+- on-device OCR + barcode lookup
+- reminders at 90 / 30 / 7 / 0 days before expiry
+- local-first — SQLite is the source of truth
+- no account, no telemetry, sync opt-in
+- Windows + Android from one codebase
+- 68 tests, CI on every push
 
-*Private beta — public release soon.*
+---
 
-### previously
+<img src="https://skillicons.dev/icons?i=flutter,dart,cpp,python,supabase,git,githubactions&theme=dark" alt="stack" />
 
-A few years of Flutter freelance and client work. The patterns that kept
-coming back — reminder scheduling, receipt parsing, duplicate detection —
-are what WarrTrack is built out of.
-
-### toolbox
-
-`Dart` · `Flutter` · `Drift / SQLite` · `Riverpod` · `Supabase` · `GitHub Actions`
+`C++` · `Python` · `Dart` · `Flutter` · `Drift / SQLite` · `Riverpod` · `Supabase` · `GitHub Actions`
 
 ---
 
@@ -48,5 +41,5 @@ are what WarrTrack is built out of.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bluetyp6/bluetyp6/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/bluetyp6/bluetyp6/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/bluetyp6/bluetyp6/output/github-contribution-grid-snake.svg" alt="snake" width="100%" />
 </picture>
