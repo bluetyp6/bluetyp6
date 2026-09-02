@@ -10,7 +10,7 @@
 ---
 
 <p align="center">
-  <img src="assets/warrtrack.svg" width="100%" alt="WarrTrack" />
+  <img src="assets/warrtrack.png" width="70%" alt="WarrTrack — screenshot of the app" style="border:1px solid #30363D; border-radius:8px" />
 </p>
 
 <p align="center">
