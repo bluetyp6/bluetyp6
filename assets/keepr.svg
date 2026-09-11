@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="1200"
+  height="300"
+  viewBox="0 0 1200 300"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Keepr"
+>
+  <defs>
+    <!-- Dark warm-glass base, matches KeeprColors.bg (#0E0E0E) -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16130F" />
+      <stop offset="100%" stop-color="#0E0E0E" />
+    </linearGradient>
+
+    <!-- Warm terracotta accent sweep -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2B583" />
+      <stop offset="55%" stop-color="#E8A06B" />
+      <stop offset="100%" stop-color="#D97B4A" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="82%" cy="12%" r="70%">
+      <stop offset="0%" stop-color="#E8A06B" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#E8A06B" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="sheen" cx="26%" cy="16%" r="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Card -->
+  <rect width="1200" height="300" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="300" rx="28" fill="url(#glow)" />
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="298"
+    rx="27"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-opacity="0.08"
+    stroke-width="2"
+  />
+
+  <!-- Logo tile -->
+  <g transform="translate(80 60)">
+    <rect width="180" height="180" rx="52" fill="url(#accent)" />
+    <rect width="180" height="180" rx="52" fill="url(#sheen)" />
+    <path
+      d="M90 40c14 9 29 14 44 15v38c0 26-18 45-44 55-26-10-44-29-44-55V55c15-1 30-6 44-15z"
+      fill="#FFFFFF"
+      fill-opacity="0.96"
+    />
+    <path
+      d="M70 96l14 14 26-29"
+      fill="none"
+      stroke="#D97B4A"
+      stroke-width="9"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Wordmark -->
+  <text
+    x="312"
+    y="152"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="88"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#F0EDE8"
+  >
+    Keepr
+  </text>
+
+  <!-- Tagline -->
+  <text
+    x="316"
+    y="202"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="30"
+    font-weight="500"
+    letter-spacing="0.5"
+    fill="#A8A49C"
+  >
+    Everything you own, warmly kept.
+  </text>
+</svg>

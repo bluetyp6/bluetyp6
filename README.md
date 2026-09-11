@@ -1,16 +1,16 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/wordmark.svg" width="420" alt="blu — c++ · python · dart · flutter" />
 </p>
 
 <p align="center">
-  building <strong>WarrTrack</strong> — offline-first warranty tracking&nbsp;·&nbsp;🔒 private beta<br>
+  building <strong>Keepr</strong> — offline-first warranty tracking&nbsp;·&nbsp;🔒 private beta<br>
   ex game-cheat dev — fortnite · valorant · cod → white hat
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/warrtrack.svg" width="100%" alt="WarrTrack" />
+  <img src="assets/keepr.svg" width="100%" alt="Keepr" />
 </p>
 
 <p align="center">
@@ -21,15 +21,18 @@
 
 ### 🧾 What I'm building
 
-**WarrTrack** helps you keep track of every warranty in your household — scan or forward a receipt once, and the app tracks coverage windows, warns you before they lapse, helps you file claims, and watches for product recalls.
+**Keepr** — everything you own, warmly kept. Scan or forward a receipt once, and
+the app tracks coverage windows, warns you before they lapse, helps you file
+claims, and watches for product recalls.
 
 | Feature | Detail |
 |---------|--------|
 | 🔌 Offline-first | Local SQLite is the source of truth; cloud sync is optional. No account required. |
 | 📸 Smart capture | On-device OCR, barcode scanning, email-forwarding import. |
-| ⏰ Boot-safe reminders | Notifications at 90/30/7/0 days before expiry. |
-| 🎨 Glassmorphic UI | Custom design system with warm terracotta palette, dark-first. |
+| ⏰ Boot-safe reminders | Notifications at 90/30/7/0 days before expiry, re-reconciled on cold start. |
+| 🎨 Warm glass UI | Custom token-based design system — dark-first, terracotta accent. |
 | 🏗️ Clean architecture | Domain / data / presentation layers, pure `Result<T>` type. |
+| ✅ Tested logic | Unit tests over the pure layers + phone-viewport overflow guards. |
 
 ### 🛠️ Stack
 

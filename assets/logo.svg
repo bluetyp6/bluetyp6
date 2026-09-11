@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Keepr"
+>
+  <defs>
+    <!-- Warm terracotta accent, matches KeeprColors.accent -->
+    <linearGradient id="keeprTile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2B583" />
+      <stop offset="55%" stop-color="#E8A06B" />
+      <stop offset="100%" stop-color="#D97B4A" />
+    </linearGradient>
+
+    <!-- Soft top-left sheen for the glass feel -->
+    <radialGradient id="keeprSheen" cx="28%" cy="18%" r="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.40" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Accent glow behind the mark -->
+    <radialGradient id="keeprGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8A06B" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#E8A06B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient glow -->
+  <circle cx="256" cy="256" r="248" fill="url(#keeprGlow)" />
+
+  <!-- Rounded glass tile -->
+  <rect x="72" y="72" width="368" height="368" rx="104" fill="url(#keeprTile)" />
+  <rect x="72" y="72" width="368" height="368" rx="104" fill="url(#keeprSheen)" />
+  <rect
+    x="72.5"
+    y="72.5"
+    width="367"
+    height="367"
+    rx="103.5"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-opacity="0.28"
+    stroke-width="1.5"
+  />
+
+  <!-- Shield glyph: "everything you own, warmly kept" -->
+  <path
+    d="M256 148c30 20 62 30 94 33v78c0 55-38 96-94 117-56-21-94-62-94-117v-78c32-3 64-13 94-33z"
+    fill="#FFFFFF"
+    fill-opacity="0.96"
+  />
+
+  <!-- Checkmark inside the shield -->
+  <path
+    d="M214 259l30 30 56-62"
+    fill="none"
+    stroke="#D97B4A"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
