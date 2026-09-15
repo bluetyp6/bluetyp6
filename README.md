@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  building <strong>Keepr</strong> — offline-first warranty tracking&nbsp;·&nbsp;🔒 private beta<br>
+  building <strong>Keepr</strong> — offline-first warranty tracking<br>
   ex game-cheat dev — fortnite · valorant · cod → white hat
 </p>
 
@@ -13,38 +13,38 @@
   <img src="assets/keepr.svg" width="100%" alt="Keepr" />
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,cpp,python,supabase,git,githubactions&theme=dark" alt="stack" />
-</p>
+---
+
+## Keepr
+
+Every household owns dozens of things still under warranty, and almost nobody
+can find the receipt on the day one of them breaks. Keepr keeps the paperwork
+and counts down the cover, on your own device.
+
+Local SQLite is the only source of truth — no account, no sign-up, and no
+network needed to add something or be reminded about it. Photograph a receipt
+and on-device OCR pulls the merchant, date and total off it. Scan a barcode and
+a warranty-terms lookup fills in the usual cover length. Reminders fire at 90,
+30, 7 and 0 days before cover ends and are re-registered on every cold start,
+so they survive a reboot or a restore.
+
+When something does break, it drafts the claim email with the serial, purchase
+date and retailer already in it. Optional cloud sync is a mirror, never the
+original, and everything exports as a zip you can read without the app.
+
+Flutter, one codebase, iOS · Android · Windows · macOS · Linux.
+`Riverpod` · `Drift` · `ML Kit` · `Supabase`
+
+The repo is private while I get it to a shippable state — there is no release
+you can install yet.
 
 ---
 
-### 🧾 What I'm building
+## Elsewhere
 
-**Keepr** — everything you own, warmly kept. Scan or forward a receipt once, and
-the app tracks coverage windows, warns you before they lapse, helps you file
-claims, and watches for product recalls.
-
-| Feature | Detail |
-|---------|--------|
-| 🔌 Offline-first | Local SQLite is the source of truth; cloud sync is optional. No account required. |
-| 📸 Smart capture | On-device OCR, barcode scanning, email-forwarding import. |
-| ⏰ Boot-safe reminders | Notifications at 90/30/7/0 days before expiry, re-reconciled on cold start. |
-| 🎨 Warm glass UI | Custom token-based design system — dark-first, terracotta accent. |
-| 🏗️ Clean architecture | Domain / data / presentation layers, pure `Result<T>` type. |
-| ✅ Tested logic | Unit tests over the pure layers + phone-viewport overflow guards. |
-
-### 🛠️ Stack
-
-`Flutter` · `Riverpod` · `Drift (SQLite)` · `ML Kit OCR` · `Supabase` · `Material 3`
-
-### 📊 Stats
+C++ and Python before this. I used to write game cheats — Fortnite, Valorant,
+Call of Duty — and the reverse-engineering habits came with me when I stopped.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bluetyp6&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bluetyp6&theme=dark&hide_border=true&layout=compact" alt="langs" height="165" />
 </p>
-
----
-
-> Building in public. ⭐ Watch the repo for updates.
